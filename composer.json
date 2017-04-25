@@ -1,0 +1,36 @@
+{
+  "name": "skychf/aliyunmns",
+  "type": "library",
+  "description": "Aliyun MNS SDK",
+  "keywords": [
+    "aliyun",
+    "MNS",
+    "mq"
+  ],
+  "homepage": "https://www.aliyun.com/product/sms?spm=5176.7944397.416540.97.6mD1zg",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "feng.chen",
+      "email": "skychf@qq.com",
+      "homepage": "https://www.skychf.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.2",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliyunMNS\\": "src/AliyunMNS/",
+      "Skychf\\AliyunMNS\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
