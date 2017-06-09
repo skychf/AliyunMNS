@@ -13,7 +13,7 @@ class AliyunMnsServiceProvider extends ServiceProvider
         ]);
     }
 
-        public function register()
+    public function register()
     {
         $this->app->bind('Skychf\AliyunMns\Sms');
         $this->app->singleton('aliyunmns', function ($app) {
